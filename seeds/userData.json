@@ -1,17 +1,20 @@
 [
   {
-    "name": "Sal",
+    "first_name": "James",
+    "last_name": "Bond",
     "email": "sal@hotmail.com",
     "password": "password12345"
   },
   {
-    "name": "Lernantino",
-    "email": "lernantino@gmail.com",
+    "first_name": "Aaron",
+    "last_name": "Jager",
+    "email": "JagerAA145@gmail.com",
     "password": "password12345"
   },
   {
-    "name": "Amiko",
-    "email": "amiko2k20@aol.com",
+    "first_name": "Light",
+    "last_name": "Yagami",
+    "email": "lightmi22@aol.com",
     "password": "password12345"
   }
 ]
