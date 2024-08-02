@@ -30,6 +30,14 @@ Car.init(
         },
         image: {
             type: DataTypes.STRING,
+        },
+        user_id: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'user',
+                key: 'id',
+                unique: false
+            }
         }
     },
     {
