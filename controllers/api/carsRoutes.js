@@ -42,6 +42,7 @@ router.get('/:id', async (req, res) => {
 });
 
 
+// add a car
 router.post('/', async (req, res) => {
     try{
 const carData = await Car.create({
@@ -57,6 +58,8 @@ const carData = await Car.create({
     }
 });
 
+
+// delete a car
 router.delete('/:id', async (req, res) => {
     try {
     const carData = await Car.destroy({
