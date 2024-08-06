@@ -8,7 +8,7 @@ const login = require('./login-page');
 
 router.use('/profile', withAuth, profile);
 
-router.use('/dashboard', withAuth, dashboard);
+router.use('/dashboard', dashboard);
 
 router.use('/login', login);
 
