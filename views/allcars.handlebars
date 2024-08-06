@@ -1,5 +1,14 @@
-<p>all cars</p>
+<p>cars collection</p>
 
 {{#each carData}}
+<div class="card">
+    <div class="cardHeader">
+            <p>{{this.model_name}}</p>
+    <div class="cardBody">
+            <p>{{this.class}}</p>
+            <p>{{this.year}}</p>
+            <p>{{this.manufacture_name}}</p>
+    </div>
+</div>
     <p>{{this.model_name}}</p>
 {{/each}}
