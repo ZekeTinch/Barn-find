@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {Car} = require('../../models/Cars');
+const {Car} = require('../../models');
 
 
 // get all cars
@@ -54,6 +54,7 @@ const carData = await Car.create({
 });
     res.status(200).json(carData);
     } catch (err) {
+        console.log(err);
         res.status(500).json(err);
     }
 });
@@ -78,3 +79,5 @@ router.delete('/:id', async (req, res) => {
     res.status(500).json(err);
     }
 });
+
+module.exports = router;
