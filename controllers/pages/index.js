@@ -9,7 +9,7 @@ const allCars = require('./allcars');
 
 router.use('/profile', withAuth, profile);
 
-router.use('/dashboard', withAuth, dashboard);
+router.use('/dashboard', dashboard);
 
 router.use('/login', login);
 
