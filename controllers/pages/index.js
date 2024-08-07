@@ -5,7 +5,8 @@ const withAuth = require('../../middleware/auth');
 const profile = require('./profile-page');
 const dashboard = require('./dashboard-page');
 const login = require('./login-page');
-const allCars = require('./allcars');
+const allCars = require('./carpedia');
+
 
 router.use('/profile', withAuth, profile);
 
