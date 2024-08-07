@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {Car} = require('../../models');
+const {Car, User} = require('../../models');
 
 
 // get all cars
@@ -77,6 +77,33 @@ router.delete('/:id', async (req, res) => {
     res.status(200).json(carData);
     } catch (err) {
     res.status(500).json(err);
+    }
+});
+
+// Find's Cars based on user_id
+router.get('/user/:id', async (req, res) => {
+    try {
+        const userCarData = await Car.findOne({
+            where: {
+                user_id: req.params.id,
+            },
+            attributes: ['id', 'model_name', 'class', 'year', 'manufacture_name', 'image', 'user_id'],
+            include: [
+                {
+                    model: User,
+                    attributes: ['id', 'first_name', 'last_name', 'email', 'password']
+                }
+            ]
+        });
+        if (!userCarData) {
+            res.status(404).json({ message: 'No User exists with that id!' });
+            return;
+        } else {
+            res.status(200).json(userCarData);
+        }
+
+    } catch (err) {
+        res.status(500).json(err);
     }
 });
 
