@@ -5,7 +5,8 @@
         "year": "1966",
         "manufacture_name": "Chevrolet",
         "image": "",
-        "user_id": 2
+        "user_id": 2,
+        "for_sale": true
     },
     {
         "model_name": "DBX707",
@@ -13,7 +14,8 @@
         "year": "2024",
         "manufacture_name": "Aston Martin",
         "image": "",
-        "user_id": 3
+        "user_id": 3,
+        "for_sale": true
     },
     {
         "model_name": "Rho 1500",
@@ -21,6 +23,7 @@
         "year": "2024",
         "manufacture_name": "Ram",
         "image": "",
-        "user_id": 1
+        "user_id": 1,
+        "for_sale": false
     }
 ]
