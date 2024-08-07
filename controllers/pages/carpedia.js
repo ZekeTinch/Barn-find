@@ -10,7 +10,7 @@ try {
 
     console.log(carData);
 
-    res.render('allCars', {
+    res.render('carpedia', {
         carData
     });
 } catch (err) {
