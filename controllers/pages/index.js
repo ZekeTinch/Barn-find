@@ -8,8 +8,9 @@ const login = require('./login-page');
 const carpedia = require('./carpedia');
 const listings = require('./listings-page');
 const collector = require('./collectors-page');
+const signUp = require('./sign-page');
 
-router.use('/profile', withAuth, profile);
+router.use('/profile', profile);
 
 router.use('/dashboard', dashboard);
 
@@ -20,6 +21,8 @@ router.use('/cars', carpedia);
 router.use('/listings', listings);
 
 router.use('/collector', collector);
+
+router.use('/signup', signUp)
 
 router.get('/', (req, res) => {
   return res.render('welcome', {
