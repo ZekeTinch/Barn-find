@@ -1,0 +1,17 @@
+<div>
+    <h2>Barn Find's Listings!</h2>
+
+    {{#each listingData}}
+    <div class="card">
+        <div class="cardHeader">
+            <h2>{{this.year}} {{this.manufacture_name}} {{this.model_name}}</h2>
+        </div>
+        <div class="cardBody">
+            <p>{{this.image}}</p>
+            <p>Type of Vehicle: {{this.class}}</p>
+            <p>Seller's Contact Information: {{this.email}}</p>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
