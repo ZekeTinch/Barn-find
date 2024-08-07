@@ -5,7 +5,7 @@ const withAuth = require('../../middleware/auth');
 const profile = require('./profile-page');
 const dashboard = require('./dashboard-page');
 const login = require('./login-page');
-const allCars = require('./allcars');
+const carpedia = require('./carpedia');
 
 router.use('/profile', withAuth, profile);
 
@@ -13,7 +13,7 @@ router.use('/dashboard', dashboard);
 
 router.use('/login', login);
 
-router.use('/cars', allCars)
+router.use('/cars', carpedia);
 
 router.get('/', (req, res) => {
   return res.render('welcome', {

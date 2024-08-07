@@ -38,6 +38,10 @@ Car.init(
                 key: 'id',
                 unique: false
             }
+        },
+        for_sale: {
+            type: DataTypes.BOOLEAN,
+            allowNull: false
         }
     },
     {
