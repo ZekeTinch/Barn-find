@@ -6,6 +6,7 @@ const profile = require('./profile-page');
 const dashboard = require('./dashboard-page');
 const login = require('./login-page');
 const carpedia = require('./carpedia');
+const listings = require('./listings-page');
 
 router.use('/profile', withAuth, profile);
 
@@ -14,6 +15,8 @@ router.use('/dashboard', dashboard);
 router.use('/login', login);
 
 router.use('/cars', carpedia);
+
+router.use('/listings', listings);
 
 router.get('/', (req, res) => {
   return res.render('welcome', {
