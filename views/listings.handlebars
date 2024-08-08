@@ -1,3 +1,38 @@
+<div class="flex w-screen h-screen text-gray-600">
+    <div class="flex flex-col w-16 pb-4 border-r border-gray-200"></div>
+    <div class="flex flex-col flex-grow">
+        <div class="flex items-center flex-shrink-0 h-16 px-8 border-b border-gray-200">
+            <h1 class="text-lg font-medium">Listings</h1>
+            <label
+                class="flex items-center justify-center h-10 px-4 ml-auto text-sm font-medium rounded cursor-pointer">
+                <input type="checkbox" value="" class="sr-only peer">
+                <div
+                    class="relative w-11 h-6 
+                    bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-[#B3C9CD]
+                    dark:peer-focus:ring-[#8BA18E] rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full
+                    peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 
+                    after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-[#777777]">
+                </div>
+                <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"></span>
+            </label>
+            <button class="relative ml-2 text-sm focus:outline-none group">
+                <div class="flex items-center justify-between w-10 h-10 rounded hover:bg-gray-200">
+                    <img class="w-5 h-5 mx-auto" src="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    </img>
+                </div>
+                <div
+                    class="absolute right-0 flex-col items-start hidden w-40 pb-1 bg-white border border-gray-300 shadow-lg group-focus:flex">
+                    <a class="w-full px-4 py-2 text-left hover:bg-gray-200" href="#">Settings</a>
+                    <a class="w-full px-4 py-2 text-left hover:bg-gray-200" href="#">Contact</a>
+                </div>
+            </button>
+        </div>
+
+    </div>
+</div>
+
+
+
 <div>
     <h2>Barn Find's Listings!</h2>
 
@@ -14,4 +49,3 @@
     </div>
     {{/each}}
 </div>
-
