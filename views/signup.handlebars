@@ -11,7 +11,7 @@
         <p class="mt-2 text-lg leading-8 text-gray-600">Become apart of car culture.
         </p>
     </div>
-    <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+    <form class="mx-auto mt-16 max-w-xl sm:mt-20" id="signup-form">
         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div class="sm:col-span-2">
                 <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">User Name</label>
@@ -145,15 +145,15 @@
                 <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
                     By selecting this, you agree to our
                     {{!-- need up with onclick pop up menu --}}
-                    <a href="#" class="font-semibold text-[#B3C9CD] hover:text-[#CFAE70]">privacy&nbsp;policy</a>.
+                    {{!-- <a href="#" class="font-semibold text-[#B3C9CD] hover:text-[#CFAE70]">privacy&nbsp;policy</a>. --}}
                 </label>
             </div>
         </div>
         <div class="mt-10">
-            <button id="signup-form" type="submit"
+            <button type="submit"
                 class="block w-full rounded-md bg-[#8BA18E] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#9EB0A0] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9EB0A0]">Join!
                 </button>
         </div>
     </form>
 </div>
-<script src="../public/js/signup.js"></script>
+<script src="/js/signup.js"></script>
