@@ -12,11 +12,14 @@ router.get('/', async (req, res) => {
             raw: true,
             nest: true,
         });
+        console.log(listingData);
+        
         res.render('listings', {
             ...listingData
     });
     } catch (err) {
         res.status(500).json(err);
+        console.log(err);
     }
 });
 
