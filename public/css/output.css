@@ -648,6 +648,10 @@ video {
   order: -9999;
 }
 
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
 .col-span-full {
   grid-column: 1 / -1;
 }
@@ -757,6 +761,10 @@ video {
   height: 4rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -769,12 +777,40 @@ video {
   height: 1.5rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-48 {
+  height: 12rem;
+}
+
+.h-\[128px\] {
+  height: 128px;
+}
+
+.h-\[456px\] {
+  height: 456px;
+}
+
+.h-\[550px\] {
+  height: 550px;
 }
 
 .max-h-96 {
@@ -839,6 +875,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .min-w-full {
@@ -950,6 +990,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-\[55px\] {
   gap: 55px;
 }
@@ -1024,8 +1068,16 @@ video {
   align-self: center;
 }
 
+.overflow-auto {
+  overflow: auto;
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
 }
 
 .whitespace-nowrap {
@@ -1897,6 +1949,10 @@ video {
 @media (min-width: 768px) {
   .md\:me-6 {
     margin-inline-end: 1.5rem;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:py-8 {
