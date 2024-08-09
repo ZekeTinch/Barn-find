@@ -16,11 +16,11 @@ router.use('/dashboard', dashboard);
 
 router.use('/login', login);
 
-router.use('/cars', carpedia);
+router.use('/carpedia', carpedia);
 
 router.use('/listings', listings);
 
-router.use('/collector', collector);
+router.use('/collectors', collector);
 
 router.use('/signup', signUp)
 
