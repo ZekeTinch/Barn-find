@@ -11,3 +11,14 @@
 ::after {
     border-width: 0;
 } */
+
+.landingPageImgBackground {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url('/img/Screen Shot 2024-08-08.png');
+    filter: blur(10px);
+    /* z-index: -1; */
+}

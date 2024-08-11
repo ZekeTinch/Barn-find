@@ -1,13 +1,19 @@
 <div class="flex w-screen h-screen text-gray-600">
-    <div class="flex flex-col w-16 pb-4 border-r border-gray-200"></div>
+    <div class="flex flex-col h-[700px] w-16 pb-4 border-r border-gray-200"></div>
     <div class="flex flex-col flex-grow">
-        <div class="flex items-center flex-shrink-0 h-16 px-8 border-b border-gray-200">
-            <h1 class="text-lg font-medium">Listings</h1>
+       <div class="flex items-center flex-shrink-0 h-16 px-8 border-b border-gray-200">
+            <h1 class="text-lg font-medium">Profile</h1>
             <label
                 class="flex items-center justify-center h-10 px-4 ml-auto text-sm font-medium rounded cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer">
+                 <button class="relative ml-2 text-sm focus:outline-none group">
+                <div class="flex items-center justify-between w-10 h-10 rounded hover:bg-gray-200">
+                    <img class="w-5 h-5 mx-auto" src="/img/addon.png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    </img>
+                </div>
+                 </button>
                 <div
-                    class="relative w-11 h-6 
+                    class="relative w-11 h-6 ml-10
                     bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-[#B3C9CD]
                     dark:peer-focus:ring-[#8BA18E] rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full
                     peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 
@@ -17,7 +23,7 @@
             </label>
             <button class="relative ml-2 text-sm focus:outline-none group">
                 <div class="flex items-center justify-between w-10 h-10 rounded hover:bg-gray-200">
-                    <img class="w-5 h-5 mx-auto" src="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <img class="w-5 h-5 mx-auto" src="/img/control.png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     </img>
                 </div>
                 <div
@@ -28,18 +34,77 @@
             </button>
         </div>
         <div class="#">
-            <div class="overflow-y-auto h-[550px] auto-rows-[200px]">
-                <div class="h-28 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-28 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-28 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-28 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-28 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-28 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-28 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-28 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
+            <div class="overflow-y-auto h-[62.5rem] bg-slate-200">
+                <div class="p-4 h-screen dark:bg-gray-800">
+                    <div class="lg:m-7 max-w-lg rounded-lg overflow-hidden lg:max-w-none lg:flex my-10 shadow-teal border-4 bg-white border-[#cdcdb3]"
+                        alt="card-buy">
+                        <div
+                            class="lg:mx-auto py-8 px-6 text-center bg-gray-50 xl:flex-shrink-0 xl:flex xl:flex-col xl:justify-evenly xl:p-12 dark:bg-gray-900">
+                            <div
+                                class="my-10 xl:my-6 flex items-baseline justify-center text-5xl leading-none font-extrabold text-gray-900 dark:text-gray-100">
+                                <img class="h-70 w-70 m-4" src="https://via.placeholder.com/150" alt="Product image">
+                            </div>
+                        </div>
+                        <div class="lg:mx-auto bg-white px-6 py-8 xl:flex-initial xl:p-12 dark:bg-gray-900">
+                            <h3
+                                class="text-2xl text-left leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9 dark:text-gray-100">
+                                Acura: NSX 2009
+                            </h3>
+                            <p class="mt-6 text-left leading-8 text-gray-500 text-lg dark:text-gray-400">
+                                The Car: Information about the care build and quality
+                            </p>
+                            <div class="mt-8">
+                                <div class="flex items-center">
+                                    <h4
+                                        class="flex-shrink-0 pr-4 bg-white text-sm leading-5 tracking-wider font-semibold uppercase text-grey-600 dark:text-[#8BA18E] dark:bg-transparent">
+                                        Special Feature
+                                    </h4>
+                                    <div class="flex-1 border-t-2 border-gray-200 dark:border-gray-700"></div>
+                                </div>
+                                <ul
+                                    class="pl-0 mt-8 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 space-y-5 lg:space-y-0">
+                                    <li class="flex items-start lg:col-span-1">
+                                        <p class="ml-3 text-lg leading-5 text-gray-700 text-left dark:text-gray-300">
+                                            Sunroom
+                                        </p>
+                                    </li>
+                                    <li class="flex items-start lg:col-span-1">
+                                        <p class="ml-3 text-lg leading-5 text-gray-700 text-left dark:text-gray-300">
+                                            Leather Seats
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            class="lg:mx-auto py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-evenly lg:p-12 dark:bg-gray-900">
+                            <p
+                                class="text-xl leading-6 font-medium text-gray-900 lg:max-w-xs lg:mx-auto mb-0 lg:mb-6 dark:text-gray-100">
+                                Asking Price 
+                            </p>
+                            <div
+                                class="my-10 lg:my-6 flex items-baseline justify-center text-5xl leading-none font-extrabold text-gray-900 dark:text-gray-100">
+                                <span class="font-brown">$19,000.00</span>
+                            </div>
+                        </div>
+                        <div class="lg:max-w-xs lg:mx-auto lg:my-auto flex items-baseline justify-center py-8 px-6">
+                            <div class="object-center rounded-md">
+                                <div>
+                                    <td class="py-4 flex items-center justify-center shadow"><button href="#" class="bg-[#E0D5C0] text-[#1C1C1C] px-5 py-3 leading-6
+                                        relative z-20 rounded-md hover:bg-[#CFAE70]">Purchase</button>
+                                    </td>
+                                    <td class="py-4 flex items-center justify-center shadow"><button href="#" class="bg-rose-600 text-[#ffffff] px-5 py-3 leading-6 
+                                        relative z-20 rounded-md hover:bg-rose-700">Inquire</button>
+                                    </td>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 
 
