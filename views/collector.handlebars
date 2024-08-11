@@ -2,12 +2,18 @@
     <div class="flex flex-col w-16 pb-4 border-r border-gray-200"></div>
     <div class="flex flex-col flex-grow">
         <div class="flex items-center flex-shrink-0 h-16 px-8 border-b border-gray-200">
-            <h1 class="text-lg font-medium">Collections</h1>
+            <h1 class="text-lg font-medium">Profile</h1>
             <label
                 class="flex items-center justify-center h-10 px-4 ml-auto text-sm font-medium rounded cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer">
+                 <button class="relative ml-2 text-sm focus:outline-none group">
+                <div class="flex items-center justify-between w-10 h-10 rounded hover:bg-gray-200">
+                    <img class="w-5 h-5 mx-auto" src="/img/addon.png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    </img>
+                </div>
+                 </button>
                 <div
-                    class="relative w-11 h-6 
+                    class="relative w-11 h-6 ml-10
                     bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-[#B3C9CD]
                     dark:peer-focus:ring-[#8BA18E] rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full
                     peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 
@@ -17,7 +23,7 @@
             </label>
             <button class="relative ml-2 text-sm focus:outline-none group">
                 <div class="flex items-center justify-between w-10 h-10 rounded hover:bg-gray-200">
-                    <img class="w-5 h-5 mx-auto" src="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <img class="w-5 h-5 mx-auto" src="/img/control.png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     </img>
                 </div>
                 <div
@@ -28,14 +34,75 @@
             </button>
         </div>
         <div class="#">
-            <div class="overflow-y-auto h-[550px] auto-rows-[200px]">
-                <div class="h-40 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-40 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-40 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-40 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-40 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-40 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
+            <div class="overflow-y-auto h-[62.5rem] bg-slate-200">
+                <div class="p-4 h-screen dark:bg-gray-800">
+                    <div
+                        class=" lg:m-7 max-w-lg max-h-lg rounded-lg overflow-hidden lg:max-w-none lg:flex my-10 shadow-teal border-4 bg-white border-[#B3C9CD]">
+                        <div class="lg:mx-auto bg-white px-6 py-8 lg:p-12 dark:bg-gray-900">
+                            <h3
+                                class="text-2xl text-left leading-10 font-extrabold text-gray-900 sm:text-3xl sm:leading-7 dark:text-gray-100">
+                                Name of Collection
+                            </h3>
+                            <p class="mt-6 text-left leading-10 text-gray-500 text-lg dark:text-gray-400">
+                                Make sure that the team list the whole bunch of cars that don't make sense
+                            </p>
+                            <div class="mt-8">
+                                <div class="flex items-center">
+                                    <h4
+                                        class="flex-shrink-0 pr-4 bg-white text-sm  tracking-wider font-semibold uppercase text-grey-600 dark:text-[#8BA18E] dark:bg-transparent">
+                                        Special Info
+                                    </h4>
+                                    <div class="flex-1 border-t-2 border-gray-200 dark:border-gray-700"></div>
+                                </div>
+                                <ul
+                                    class="pl-0 mt-8 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 space-y-5 lg:space-y-0">
+                                    <li class="flex items-start lg:col-span-1">
+                                        <p class="ml-3 text-lg leading-10 text-gray-700 text-left dark:text-gray-300">
+                                            150 Thousand Cars
+                                        </p>
+                                    </li>
+                                    <li class="flex items-start lg:col-span-1">
+                                        <p class="ml-3 text-lg leading-10 text-gray-700 text-left dark:text-gray-300">
+                                            Never Live Sucker Free
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            class="lg:ml-7 py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12 dark:bg-gray-900">
+                            <div
+                                class="my-10 lg:my-6 flex items-baseline justify-center text-5xl leading-none font-extrabold text-gray-900 dark:text-gray-100">
+                                <img class="h-70 w-70 m-4" src="https://via.placeholder.com/150" alt="Product image">
+                            </div>
+                        </div>
+                        <div
+                            class="lg:mr-7 py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-evenly lg:p-12 dark:bg-gray-900">
+                            <p
+                                class="text-xl leading-6 font-medium text-gray-900 lg:max-w-xs lg:mx-auto mb-0 lg:mb-6 dark:text-gray-100">
+                                Collection Inventory
+                            </p>
+                            <div
+                                class="my-10 lg:my-6 flex items-baseline justify-center text-5xl leading-none font-extrabold text-gray-900 dark:text-gray-100">
+                                <span class="font-brown">150</span>
+                            </div>
+                        </div>
+                        <div class="lg:max-w-xs lg:mx-auto lg:my-auto flex items-baseline justify-center py-8 px-6">
+                            <div class="object-center rounded-md shadow">
+                                <a href="#" class="flex items-center justify-center px-5 py-3 leading-7
+                                    font-medium rounded-md
+                                    bg-black hover:bg-[#B3C9CD]
+                                    text-white hover:text-white text-xl relative">
+                                    See Collection
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
+
+</div>
 </div>
