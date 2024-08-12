@@ -27,32 +27,20 @@
                 </div>
             </button>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="overflow-y-auto h-[550px] grid grid-cols-3 auto-rows-[200px]">
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class=" m-4 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-200">
+            <div class="overflow-y-auto h-[62.5rem] grid grid-cols-3 auto-rows-[200px]">
+                <div id="ford" class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/ford-logo-2017-download.png" alt="ford"></div>
+                <div id="cadillac" class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/cadillac-logo-download.png" alt="cadillac"></div>
+                <div class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/jeep-logo-1993-download.png" alt="jeep"></div>
+                <div class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/gmc-logo-png-439445.png" alt="gmc"></div>
+                <div class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/chevy-logo-png-6823814.png" alt="chevy"></div>
+                <div class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/toyota-logo-download.png" alt="toyota"></div>                
             </div>
-            <div class="overflow-y-auto h-[550px]">
-                <div class="h-80 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-60 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-24 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
-                <div class="h-24 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300"></div>
+            <div class="overflow-y-auto h-[62.5rem]">
+                <div id="history" class="h-80 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300">company history</div>
+                <div id="locations" class="h-60 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300">locations</div>
+                <div id="top" class="h-24 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300">top 3 cars</div>
+                <div id="worst" class="h-24 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300">worst 3 cars</div>
             </div>
         </div>
     </div>
@@ -75,3 +63,5 @@
     </div>
     <p>{{this.model_name}}</p>
     {{/each}}
+
+<script src="/js/carpedia.js"></script>
