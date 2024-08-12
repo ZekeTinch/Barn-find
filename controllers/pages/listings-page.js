@@ -7,7 +7,7 @@ router.get('/', async (req, res) => {
             where: {
                 for_sale: true
             },
-            attributes: ['id', 'model_name', 'class', 'year', 'manufacture_name', 'image', 'user_id', 'for_sale'],
+            attributes: ['id', 'model_name', 'class', 'year', 'manufacture_name', 'image', 'user_id', 'for_sale', 'estimated_price'],
             include: [User],
             raw: true,
             nest: true,
@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
         console.log(listingData);
         
         res.render('listings', {
-            ...listingData
+            listingData
     });
     } catch (err) {
         res.status(500).json(err);

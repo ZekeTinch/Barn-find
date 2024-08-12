@@ -42,6 +42,10 @@ Car.init(
         for_sale: {
             type: DataTypes.BOOLEAN,
             allowNull: false
+        },
+        estimated_price: {
+            type: DataTypes.STRING,
+            allowNull: false
         }
     },
     {
