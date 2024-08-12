@@ -34,22 +34,23 @@
         <div class="#">
             <div class="overflow-y-auto h-[62.5rem] bg-slate-200">
                 <div class="p-4 h-screen dark:bg-gray-800">
-                    <div class="lg:m-7 max-w-lg rounded-lg overflow-hidden lg:max-w-none lg:flex my-10 shadow-teal border-b border-gray-300 hover:border-4 bg-white hover:border-[#cdcdb3]"
+                    {{#each listingData}}
+                    <div class="lg:m-7 max-w-lg rounded-lg overflow-hidden lg:max-w-none lg:flex my-10 shadow-teal border-4 bg-white border-[#cdcdb3]"
                         alt="card-buy">
                         <div
                             class="lg:mx-auto py-8 px-6 text-center bg-gray-50 xl:flex-shrink-0 xl:flex xl:flex-col xl:justify-evenly xl:p-12 dark:bg-gray-900">
                             <div
                                 class="my-10 xl:my-6 flex items-baseline justify-center text-5xl leading-none font-extrabold text-gray-900 dark:text-gray-100">
-                                <img class="h-70 w-70 m-4" src="https://via.placeholder.com/150" alt="Product image">
+                                <img class="h-70 w-70 m-4" src="{{this.image}}" width="150" height="150" alt="Product image">
                             </div>
                         </div>
                         <div class="lg:mx-auto bg-white px-6 py-8 xl:flex-initial xl:p-12 dark:bg-gray-900">
                             <h3
                                 class="text-2xl text-left leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9 dark:text-gray-100">
-                                Acura: NSX 2009
+                                {{this.year}} {{this.manufacture_name}} {{this.model_name}}
                             </h3>
                             <p class="mt-6 text-left leading-8 text-gray-500 text-lg dark:text-gray-400">
-                                The Car: Information about the care build and quality
+                                Type of Vehicle: {{this.class}}
                             </p>
                             <div class="mt-8">
                                 <div class="flex items-center">
@@ -63,12 +64,12 @@
                                     class="pl-0 mt-8 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 space-y-5 lg:space-y-0">
                                     <li class="flex items-start lg:col-span-1">
                                         <p class="ml-3 text-lg leading-5 text-gray-700 text-left dark:text-gray-300">
-                                            Sunroom
+                                            Leather Seats
                                         </p>
                                     </li>
                                     <li class="flex items-start lg:col-span-1">
                                         <p class="ml-3 text-lg leading-5 text-gray-700 text-left dark:text-gray-300">
-                                            Leather Seats
+                                            
                                         </p>
                                     </li>
                                 </ul>
@@ -82,7 +83,7 @@
                             </p>
                             <div
                                 class="my-10 lg:my-6 flex items-baseline justify-center text-5xl leading-none font-extrabold text-gray-900 dark:text-gray-100">
-                                <span class="font-brown">$19,000.00</span>
+                                <span class="font-brown">{{estimated_price}}</span>
                             </div>
                         </div>
                         <div class="lg:max-w-xs lg:mx-auto lg:my-auto flex items-baseline justify-center py-8 px-6">
@@ -98,6 +99,7 @@
                             </div>
                         </div>
                     </div>
+                    {{/each}}
                 </div>
             </div>
         </div>

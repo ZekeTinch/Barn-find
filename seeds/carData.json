@@ -4,18 +4,20 @@
         "class": "Sports Car",
         "year": "1966",
         "manufacture_name": "Chevrolet",
-        "image": "",
+        "image": "https://www.corvsport.com/wp-content/uploads/2021/02/Red-1966-chevrolet-corvette-.jpg",
         "user_id": 2,
-        "for_sale": true
+        "for_sale": true,
+        "estimated_price": "$53,700.00"
     },
     {
         "model_name": "DBX707",
         "class": "SUV",
         "year": "2024",
         "manufacture_name": "Aston Martin",
-        "image": "",
+        "image": "https://vehicle-photos-published.vauto.com/30/a0/40/4a-c133-4bbe-b531-b35dd0d2ceb6/image-1.jpg",
         "user_id": 3,
-        "for_sale": true
+        "for_sale": true,
+        "estimated_price": "$248,172.00"
     },
     {
         "model_name": "Rho 1500",
@@ -24,6 +26,7 @@
         "manufacture_name": "Ram",
         "image": "",
         "user_id": 1,
-        "for_sale": false
+        "for_sale": false,
+        "estimated_price": "41,415.00"
     }
 ]
