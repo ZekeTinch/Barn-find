@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
         console.log(listingData);
         
         res.render('listings', {
-            logged_in:true,
+            logged_in: true,
             listingData
     });
     } catch (err) {
