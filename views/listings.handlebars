@@ -56,7 +56,7 @@
                                 <div class="flex items-center">
                                     <h4
                                         class="flex-shrink-0 pr-4 bg-white text-sm leading-5 tracking-wider font-semibold uppercase text-grey-600 dark:text-[#8BA18E] dark:bg-transparent">
-                                        Special Feature
+                                        Seller Contact Information
                                     </h4>
                                     <div class="flex-1 border-t-2 border-gray-200 dark:border-gray-700"></div>
                                 </div>
@@ -64,7 +64,7 @@
                                     class="pl-0 mt-8 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 space-y-5 lg:space-y-0">
                                     <li class="flex items-start lg:col-span-1">
                                         <p class="ml-3 text-lg leading-5 text-gray-700 text-left dark:text-gray-300">
-                                            Leather Seats
+                                            {{user.email}}
                                         </p>
                                     </li>
                                     <li class="flex items-start lg:col-span-1">
@@ -89,11 +89,8 @@
                         <div class="lg:max-w-xs lg:mx-auto lg:my-auto flex items-baseline justify-center py-8 px-6">
                             <div class="object-center rounded-md">
                                 <div>
-                                    <td class="py-4 flex items-center justify-center shadow"><button href="#" class="bg-[#E0D5C0] text-[#1C1C1C] px-5 py-3 leading-6
+                                    <td class="py-4 flex items-center justify-center shadow"><button id="purchase-button" href="#" class="purchase-button bg-[#E0D5C0] text-[#1C1C1C] px-5 py-3 leading-6
                                         relative z-20 rounded-md hover:bg-[#CFAE70]">Purchase</button>
-                                    </td>
-                                    <td class="py-4 flex items-center justify-center shadow"><button href="#" class="bg-rose-600 text-[#ffffff] px-5 py-3 leading-6 
-                                        relative z-20 rounded-md hover:bg-rose-700">Inquire</button>
                                     </td>
                                 </div>
                             </div>
@@ -107,7 +104,7 @@
 </div>
 </div>
 
-
+<script src="/js/listing.js"></script>
 {{!-- <div>
     <h2>Barn Find's Listings!</h2>
 
