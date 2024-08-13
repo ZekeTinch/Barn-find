@@ -11,6 +11,7 @@ try {
     console.log(carData);
 
     res.render('carpedia', {
+        logged_in: true,
         carData
     });
 } catch (err) {
