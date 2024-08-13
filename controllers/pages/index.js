@@ -10,15 +10,15 @@ const listings = require('./listings-page');
 const collector = require('./collectors-page');
 const signUp = require('./sign-page');
 
-router.use('/profile', profile);
+router.use('/profile',withAuth, profile);
 
-router.use('/dashboard', dashboard);
+router.use('/dashboard',withAuth, dashboard);
 
 router.use('/login', login);
 
 router.use('/carpedia', withAuth, carpedia);
 
-router.use('/listings', listings);
+router.use('/listings', withAuth, listings);
 
 router.use('/collectors', collector);
 
