@@ -16,6 +16,7 @@ try {
 
     // find all users with public profiles
     res.render('collector', {
+        logged_in: true,
         collectorData
     });
 } catch (err) {
@@ -39,6 +40,7 @@ router.get('/:id', async (req, res) => {
         console.log(collectorData);
     
         res.render('collector', {
+            logged_in: true,
             collectorData
         });
     } catch (err) {

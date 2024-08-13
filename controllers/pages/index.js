@@ -16,7 +16,7 @@ router.use('/dashboard', dashboard);
 
 router.use('/login', login);
 
-router.use('/carpedia', carpedia);
+router.use('/carpedia', withAuth, carpedia);
 
 router.use('/listings', listings);
 
