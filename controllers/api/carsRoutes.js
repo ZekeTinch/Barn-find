@@ -50,7 +50,9 @@ const carData = await Car.create({
     class: req.body.class,
     year: req.body.year,
     manufacture_name: req.body.manufacture_name,
-    user_id: req.body.user_id
+    image: req.body.image,
+    estimated_price: req.body.estimated_price,
+    user_id: req.session.user_id
 });
     res.status(200).json(carData);
     } catch (err) {
