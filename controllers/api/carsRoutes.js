@@ -52,7 +52,8 @@ const carData = await Car.create({
     manufacture_name: req.body.manufacture_name,
     image: req.body.image,
     estimated_price: req.body.estimated_price,
-    user_id: req.session.user_id
+    user_id: req.session.user_id,
+    for_sale: true
 });
     res.status(200).json(carData);
     } catch (err) {
