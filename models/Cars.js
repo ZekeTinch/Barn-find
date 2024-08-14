@@ -45,7 +45,7 @@ Car.init(
             allowNull: false
         },
         estimated_price: {
-            type: DataTypes.STRING,
+            type: DataTypes.DECIMAL,
             allowNull: false
         }
     },
