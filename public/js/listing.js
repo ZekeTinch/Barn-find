@@ -8,7 +8,7 @@ purchaseButton.forEach((btnEl) => {
     btnEl.addEventListener('click', purchasePopUp);
 });
 
-const collection = async (event) => {
+const listings = async (event) => {
     event.preventDefault();
 
     const manufacture_name = document.querySelector('#name').value.trim();
@@ -38,9 +38,9 @@ const collection = async (event) => {
         })
 
         
-    }catch (err){}
-
-    // fetch
+    }catch (err){
+        console.log(err);
+    }
 };
 
-document.querySelector('#car-form').addEventListener('submit', collection);
+document.querySelector('#car-form').addEventListener('submit', listings);
