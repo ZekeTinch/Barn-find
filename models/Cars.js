@@ -30,6 +30,7 @@ Car.init(
         },
         image: {
             type: DataTypes.STRING,
+            allowNull: true
         },
         user_id: {
             type: DataTypes.INTEGER,
