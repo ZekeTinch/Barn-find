@@ -16,7 +16,6 @@ try {
 
     // find all users with public profiles
     res.render('collector', {
-        logged_in: true,
         collectorData
     });
 } catch (err) {
