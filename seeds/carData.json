@@ -7,7 +7,7 @@
         "image": "https://www.corvsport.com/wp-content/uploads/2021/02/Red-1966-chevrolet-corvette-.jpg",
         "user_id": 2,
         "for_sale": true,
-        "estimated_price": "$53,700.00"
+        "estimated_price": 53700.00
     },
     {
         "model_name": "DBX707",
@@ -17,7 +17,7 @@
         "image": "https://vehicle-photos-published.vauto.com/30/a0/40/4a-c133-4bbe-b531-b35dd0d2ceb6/image-1.jpg",
         "user_id": 3,
         "for_sale": true,
-        "estimated_price": "$248,172.00"
+        "estimated_price": 248172.00
     },
     {
         "model_name": "Rho 1500",
@@ -27,6 +27,6 @@
         "image": "",
         "user_id": 1,
         "for_sale": false,
-        "estimated_price": "41,415.00"
+        "estimated_price": 41415.00
     }
 ]
