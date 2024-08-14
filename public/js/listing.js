@@ -30,6 +30,16 @@ const collection = async (event) => {
         image
     }
 
+    try{
+        const response = await fetch('/api/cars', {
+            method: 'POST',
+            body: JSON.stringify(bodyObj),
+            headers: { 'Content-Type': 'application/json' },
+        })
+
+        
+    }catch (err){}
+
     // fetch
 };
 
