@@ -11,7 +11,32 @@ const companyObj = {
         top3: ['', '', ''],
         worst3: ['', '', '']
     }, 
+    jeep: {
+        history: "This is ford history",
+        location: 'ford location',
+        top3: ['1', '2', '3'],
+        worst3: ['1', '2', '3']
+    },
+    gmc: {
+        history: "",
+        location: '',
+        top3: ['', '', ''],
+        worst3: ['', '', '']
+    }, 
+    chevy: {
+        history: "This is ford history",
+        location: 'ford location',
+        top3: ['1', '2', '3'],
+        worst3: ['1', '2', '3']
+    },
+    toyota: {
+        history: "",
+        location: '',
+        top3: ['', '', ''],
+        worst3: ['', '', '']
+    }, 
 };
+
 
 const historyDiv = document.querySelector('#history');
 const locationsDiv = document.querySelector('#locations');
@@ -20,6 +45,10 @@ const worstDiv = document.querySelector('#worst');
 
 const fordCard = document.querySelector("#ford");
 const cadillacCard = document.querySelector("#cadillac");
+const jeepCard = document.querySelector("#jeep");
+const gmcCard = document.querySelector("#gmc");
+const chevyCard = document.querySelector("#chevy");
+const toyotaCard = document.querySelector("#toyota");
 
 let selectedCompany = 'ford';
 
@@ -68,7 +97,9 @@ const handleCardClick = (event) => {
 
 fordCard.addEventListener('click', handleCardClick);
 cadillacCard.addEventListener('click', handleCardClick);
-
-
+jeepCard.addEventListener('click', handleCardClick);
+gmcCard.addEventListener('click', handleCardClick);
+chevyCard.addEventListener('click', handleCardClick);
+toyotaCard.addEventListener('click', handleCardClick);
 
 showInfo();
