@@ -2,48 +2,12 @@ const companyObj = {
     ford: {
         history: "This is ford history",
         location: 'ford location',
-<<<<<<< HEAD
-        top3: ['1', '2', '3'],
-        worst3: ['1', '2', '3']
-=======
         top3: ['Ford Mustang', 'Ford Thunderbird', 'Ford escape'],
         worst3: ['Ford Edsel division', 'Ford Pinto', 'Ford bronco 2']
->>>>>>> 8b11e02 (added best and worst vehicles to carpedia)
     },
     cadillac: {
         history: "",
         location: '',
-<<<<<<< HEAD
-        top3: ['', '', ''],
-        worst3: ['', '', '']
-    }, 
-    jeep: {
-        history: "This is ford history",
-        location: 'ford location',
-        top3: ['1', '2', '3'],
-        worst3: ['1', '2', '3']
-    },
-    gmc: {
-        history: "",
-        location: '',
-        top3: ['', '', ''],
-        worst3: ['', '', '']
-    }, 
-    chevy: {
-        history: "This is ford history",
-        location: 'ford location',
-        top3: ['1', '2', '3'],
-        worst3: ['1', '2', '3']
-    },
-    toyota: {
-        history: "",
-        location: '',
-        top3: ['', '', ''],
-        worst3: ['', '', '']
-    }, 
-};
-
-=======
         top3: ['Cadillac CTS-V Gen 1', 'Cadillac series 62 convertable', 'Cadillac ATS-V'],
         worst3: ['Cadillac Cimarron', 'Cadillac Catera', 'Cadillac Allanté']
     }, 
@@ -73,7 +37,6 @@ const companyObj = {
     },
 
 };
->>>>>>> 8b11e02 (added best and worst vehicles to carpedia)
 
 const historyDiv = document.querySelector('#history');
 const locationsDiv = document.querySelector('#locations');
@@ -82,13 +45,10 @@ const worstDiv = document.querySelector('#worst');
 
 const fordCard = document.querySelector("#ford");
 const cadillacCard = document.querySelector("#cadillac");
-<<<<<<< HEAD
 const jeepCard = document.querySelector("#jeep");
 const gmcCard = document.querySelector("#gmc");
 const chevyCard = document.querySelector("#chevy");
 const toyotaCard = document.querySelector("#toyota");
-=======
->>>>>>> 8b11e02 (added best and worst vehicles to carpedia)
 
 let selectedCompany = 'ford';
 
@@ -137,14 +97,9 @@ const handleCardClick = (event) => {
 
 fordCard.addEventListener('click', handleCardClick);
 cadillacCard.addEventListener('click', handleCardClick);
-<<<<<<< HEAD
 jeepCard.addEventListener('click', handleCardClick);
 gmcCard.addEventListener('click', handleCardClick);
 chevyCard.addEventListener('click', handleCardClick);
 toyotaCard.addEventListener('click', handleCardClick);
-=======
-
-
->>>>>>> 8b11e02 (added best and worst vehicles to carpedia)
 
 showInfo();
