@@ -2,41 +2,41 @@ const companyObj = {
     ford: {
         history: "This is ford history",
         location: 'ford location',
-        top3: ['1', '2', '3'],
-        worst3: ['1', '2', '3']
+        top3: ['Ford Mustang', 'Ford Thunderbird', 'Ford escape'],
+        worst3: ['Ford Edsel division', 'Ford Pinto', 'Ford bronco 2']
     },
     cadillac: {
         history: "",
         location: '',
-        top3: ['', '', ''],
-        worst3: ['', '', '']
+        top3: ['Cadillac CTS-V Gen 1', 'Cadillac series 62 convertable', 'Cadillac ATS-V'],
+        worst3: ['Cadillac Cimarron', 'Cadillac Catera', 'Cadillac Allanté']
     }, 
     jeep: {
-        history: "This is ford history",
-        location: 'ford location',
-        top3: ['1', '2', '3'],
-        worst3: ['1', '2', '3']
+        history:"",
+        location: "",
+        top3: ['Jeep Wrangler YJ','Jeep Wagoneer','Jeep CJ-8 Scrambler'],
+        worst3: ['Jeep Grand Cherokee','Jeep Liberty','Jeep Renegade']
     },
     gmc: {
-        history: "",
-        location: '',
-        top3: ['', '', ''],
-        worst3: ['', '', '']
-    }, 
+        history:"",
+        location: "",
+        top3: ['Chevy Suburban','GMC Yukon XL','GMC Acadia'],
+        worst3: ['GMC Jimmy','GMC Savanna','GMC Sonoma']
+    },
     chevy: {
-        history: "This is ford history",
-        location: 'ford location',
-        top3: ['1', '2', '3'],
-        worst3: ['1', '2', '3']
+        history:"",
+        location: "",
+        top3: ['Corvette ZR1','Nova L78','Camaro'],
+        worst3: ['GMC EV1','Lumina APV','Cavalier']
     },
     toyota: {
-        history: "",
-        location: '',
-        top3: ['', '', ''],
-        worst3: ['', '', '']
-    }, 
-};
+        history:"",
+        location: "",
+        top3: ['Lexus LS400','Toyota MR2','Lexus LFA'],
+        worst3: ['Toyota 86','Scion XD','Toyota Venza']
+    },
 
+};
 
 const historyDiv = document.querySelector('#history');
 const locationsDiv = document.querySelector('#locations');
