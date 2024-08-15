@@ -14,12 +14,53 @@
 } */
 
 .landingPageImgBackground {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-image: url('/img/sebastian-dzi.jpg');
-    filter: blur(10px);
-    /* z-index: -1; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url('/img/sebastian-dzi.jpg');
+  filter: blur(10px);
+  /* z-index: -1; */
+}
+
+.worstText {
+  text-align: center;
+  text-wrap: pretty;
+  line-height: 2.25rem;
+  color: red;
+}
+
+.topText {
+  text-align: center;
+  text-wrap: pretty;
+  line-height: 2.25rem;
+  color: goldenrod;
+}
+
+.factText {
+  text-align: center;
+  text-wrap: pretty;
+  line-height: 2.25rem;
+  color: rgb(98, 99, 103);
+}
+
+.historyText {
+  text-align: center;
+  text-wrap: pretty;
+  line-height: 2.25rem;
+  color: black;
+}
+
+.animated-pluse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: .5;
+      }
+    }
 }

@@ -1,19 +1,12 @@
 <div class="flex w-screen text-gray-600">
-        <div class="flex flex-col flex-grow">
+    <div class="flex flex-col flex-grow">
         <div class="flex items-center flex-shrink-0 h-16 px-8 border-b border-gray-200">
             <h1 class="text-lg font-medium">Carpedia</h1>
             <label
-                class="flex items-center justify-center h-10 px-4 ml-auto text-sm font-medium rounded cursor-pointer">
+                class="flex items-center justify-center h-10 px-8 ml-auto text-sm font-medium rounded cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer">
-                <button type="button" data-modal-target="crud-modal" data-modal-toggle="crud-modal"
-                    class="relative ml-2 text-sm focus:outline-none group">
-                    <div class="flex items-center justify-between w-10 h-10 rounded hover:bg-gray-200">
-                        <img class="w-5 h-5 mx-auto" src="/img/dashboard.png" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                    </div>
-                </button>
                 <div
-                    class="relative w-11 h-6 
+                    class="relative w-11 h-6 ml-10
                     bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-[#B3C9CD]
                     dark:peer-focus:ring-[#8BA18E] rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full
                     peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 
@@ -23,7 +16,8 @@
             </label>
             <button class="relative ml-2 text-sm focus:outline-none group">
                 <div class="flex items-center justify-between w-10 h-10 rounded hover:bg-gray-200">
-                    <img class="w-5 h-5 mx-auto" src="/img/control.png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <img class="w-5 h-5 mx-auto" src="/img/control.png" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
                     </img>
                 </div>
                 <div
@@ -35,18 +29,45 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-200">
             <div class="overflow-y-auto h-[62.5rem] grid grid-cols-3 auto-rows-[200px]">
-                <div id="ford" class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/ford-logo-2017-download.png" alt="ford"></div>
-                <div id="cadillac" class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/cadillac-logo-download.png" alt="cadillac"></div>
-                <div id="jeep" class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/jeep-logo-1993-download.png" alt="jeep"></div>
-                <div id="gmc" class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/gmc-logo-png-439445.png" alt="gmc"></div>
-                <div id="chevy" class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/chevy-logo-png-6823814.png" alt="chevy"></div>
-                <div id="toyota" class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300" ><img class="object-center h-28 w-30 my-7 mx-auto" src="/img/toyota-logo-download.png" alt="toyota"></div>                
+                <div id="ford"
+                    class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300">
+                    <img class="object-center h-28 w-30 my-7 mx-auto" src="/img/ford-logo-2017-download.png" alt="ford">
+                </div>
+                <div id="cadillac"
+                    class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300">
+                    <img class="object-center h-28 w-30 my-7 mx-auto" src="/img/cadillac-logo-download.png"
+                        alt="cadillac"></div>
+                <div id="jeep"
+                    class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300">
+                    <img class="object-center h-28 w-30 my-7 mx-auto" src="/img/jeep-logo-1993-download.png" alt="jeep">
+                </div>
+                <div id="gmc"
+                    class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300">
+                    <img class="object-center h-28 w-30 my-7 mx-auto" src="/img/gmc-logo-png-439445.png" alt="gmc">
+                </div>
+                <div id="chevy"
+                    class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300">
+                    <img class="object-center h-28 w-30 my-7 mx-auto" src="/img/chevy-logo-png-6823814.png" alt="chevy">
+                </div>
+                <div id="toyota"
+                    class=" m-4 rounded-lg border-b shadow-md px-4 bg-white border hover:border-4 hover:border-[#cdcdb3] border-gray-300">
+                    <img class="object-center h-28 w-30 my-7 mx-auto" src="/img/toyota-logo-download.png" alt="toyota">
+                </div>
             </div>
             <div class="overflow-y-auto h-[62.5rem]">
-                <div id="history" class="h-80 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300">company history</div>
-                <div id="locations" class="h-60 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300">locations</div>
-                <div id="top" class="h-24 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300">top 3 cars</div>
-                <div id="worst" class="h-24 m-4 col-span-1 rounded-lg border-b px-4 pb-6 bg-white border border-gray-300">worst 3 cars</div>
+                <div id="history"
+                    class="historyText h-auto m-4 col-span-1 rounded-lg border-b px-10 py-6 bg-white border border-gray-300 font-bold text-lg">company
+                    history</div>
+                <div id="fact"
+                    class="factText h-auto m-4 col-span-1 rounded-lg border-b px-10 py-6 bg-white border border-gray-300 font-semi-bold text-md shadow-md">fact
+                </div>
+                <container class=" flex flex-wrap flex-row my-4 items-stretch mx-auto ">
+                    <div id="top" class="topText h-auto w-[470px] mx-auto rounded-lg border-b px-6 py-6 bg-white border border-gray-300 font-bold text-xl shadow-md ">
+                    top 3 cars</div>
+                <div id="worst"
+                    class="worstText h-auto w-[470px] col-span-1 mx-auto rounded-lg border-b px-6 py-6 bg-white border border-gray-300 font-bold text-xl shadow-md">worst 3
+                    cars</div>
+                </container>
             </div>
         </div>
     </div>
