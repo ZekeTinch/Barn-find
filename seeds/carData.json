@@ -28,5 +28,25 @@
         "user_id": 1,
         "for_sale": false,
         "estimated_price": 41415.00
+    },
+    {
+        "model_name": "F-150",
+        "class": "Truck",
+        "year": 2019,
+        "manufacture_name": "Ford",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJr7OH9L-uMCYuJDRN1m33h1wEm-_n2pTbig&s",
+        "user_id": 1,
+        "for_sale": true,
+        "estimated_price": 33030.99
+    },
+    {
+        "model_name": "Soul LX",
+        "class": "Crossover SUV",
+        "year": 2025,
+        "manufacture_name": "Kia",
+        "image": "https://www.rustywallacekiaalcoa.com/inventoryphotos/2078/kndj33au5s7243294/ip/1.jpg",
+        "user_id": 3,
+        "for_sale": true,
+        "estimated_price": 20290.00
     }
 ]
