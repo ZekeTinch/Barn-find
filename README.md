@@ -1,7 +1,7 @@
 ## Barn Find
 Project 2: Vanderbilt Bootcamp
 
-![Project Preview](./)
+![Project Preview](./public/img/Screen%20Shot%202024-08-15%20at%208.37.42%20PM.png)
 
 ## Table of Contents
 * [License](#license)
