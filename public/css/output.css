@@ -2308,14 +2308,6 @@ video {
   --tw-bg-opacity: 0.1;
 }
 
-.hover\:text-\[\#8BA18E\]\/10:hover {
-  color: rgb(139 161 142 / 0.1);
-}
-
-.hover\:text-\[\#8BA18E\]\/20:hover {
-  color: rgb(139 161 142 / 0.2);
-}
-
 .hover\:text-\[\#CFAE70\]:hover {
   --tw-text-opacity: 1;
   color: rgb(207 174 112 / var(--tw-text-opacity));
