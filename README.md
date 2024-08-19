@@ -33,3 +33,7 @@ Use NPM : npm run watch
 ## Questions
 EmmanuelJatto, ZekeTinch, One4TheNation
 Contact on github
+
+## Links
+Deployed site : https://barn-find.onrender.com/
+Github : https://github.com/ZekeTinch/Barn-find
