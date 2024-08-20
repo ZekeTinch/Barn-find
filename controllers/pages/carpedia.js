@@ -8,9 +8,7 @@ try {
         nest: true,
     });
 
-    console.log(carData);
-
-    res.render('carpedia', {
+    res.render('Carpedia', {
         logged_in: true,
         carData
     });
